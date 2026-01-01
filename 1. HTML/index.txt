@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+</head>
+<body>
+
+<h1 style="text-align:center;">Vijwal S V</h1>
+<br><br>
+
+<p> Text here about short introduction </p>
+<br><br>
+
+<nav> <a href="about.html">About</a>
+<br><br>
+
+<img src="pfp.png" alt="Profile Picture" width="500" height="500"> 
+<br><br>
+
+<h2>Skills</h2>
+<ul>
+<li>skill 1</li>
+<li>skill 2</li>
+<li></li>
+</ul>
+
+<h2>Projects</h2>
+<article>
+<h3>Project 1</h3>
+<p>Description goes here</p>
+</article>
+
+<article>
+<h3>Project 2</h3>
+<p>Description goes here</p>
+</article>
+
+<br><br>
+
+<iframe src="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" height="200" width="300" title="Video"></iframe> 
+
+</body>
+</html> 
