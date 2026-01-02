@@ -37,7 +37,7 @@ td {
     background-color: #F2F2FA;
 	font-size: 24px;
     color: #333;
-    line-height: 0.8;
+    line-height: 1.2;
 	padding: 20px 100px;
 	border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);	
@@ -53,17 +53,37 @@ form {
 }
 
 label[for=Option] {
+	font-size: 24px;
     color: black;
     height: 28px;
-	vertical-align: 8px;
-    margin-left: 10px;
-	padding-left: 3px;
+	vertical-align: 4px;
+    margin-left: -15px;
+	
+	border-radius: 2px;
+	background-color: #F2F2FA;
 }
+
+label[for=Title] {
+	background-color: #E1E1E8;
+    color: #333;
+    line-height: 1.6;
+	border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	
+	font-size: 25px;
+	font-weight: bold;
+    height: 28px;
+	vertical-align: 8px;
+    margin: 15px 10px;
+	padding: 5px 5px;
+}
+
+
 input
 {
+	margin: 20px 25px;
     color: #979797;
     height: 28px;
-    margin-left: 10px;
 	padding-left: 3px;
 
 }
