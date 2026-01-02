@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="style.css">
+
+<script>
+
+function SaveData(){}
+</script>
+
+<head>
+<title>Event</title>
+</head>
+<body style="text-align:center">
+	<h1> Event Details <h1>
+	<br>
+	
+	<table>
+	
+	<thead>
+	<tr>
+		<th>Time</th>
+		<th>Activity</th>
+		<th>Venue</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	<tr>
+		<td>09:00</td>
+		<td>Inauguration</td>
+		<td>Main Hall</td>
+	</tr>
+	
+	<tr>
+		<td>11:15</td>
+		<td>Technical Demonstration</td>
+		<td>Hall H</td>
+	</tr>
+	
+	<tr>
+		<td>14:40</td>
+		<td>Vote of Thanks</td>
+		<td>Main Hall</td>
+	</tr>
+	
+	</tbody>
+	
+	</table>
+	
+	
+	<h1>Registration Form </h1>
+	
+	<form onsubmit=SaveData()>
+		<label for="Title">Name:</label><br>
+		<input type="text" id="name" name="name"><br>
+		
+		<label for="Title">Gmail:</label><br>
+		<input type="email" id="mail" name="mail"><br>
+		
+		<label for="Title">Phone Number:</label><br>
+		<input type="number" id="num" name="num"><br>
+		
+		<label for="Title">Date:</label><br>
+		<input type="date" id="date" name="date"><br>
+		
+		<label for="Title">Ticket Type:</label><br>
+		<input type="radio" id="tReg" name="ticket">
+		<label for="Option">Regular</label><br>
+		<input type="radio" id="tEx" name="ticket">
+		<label for="Option">Executive</label><br>
+		<input type="radio" id="tVIP" name="ticket">
+		<label for="Option">VIP</label><br>
+		
+		
+		<label for="Title">Workshop Preferences:</label><br>
+		<input type="checkbox" id="sCode" name="shop">
+		<label for="Option">Coding</label><br>
+		<input type="checkbox" id="sAI" name="shop">
+		<label for="Option">AI and Machine Learning</label><br>
+		<input type="checkbox" id="sPBI" name="shop">
+		<label for="Option">Power BI</label><br>
+		<input type="checkbox" id="sEC" name="shop">
+		<label for="Option">Electronics</label><br>
+
+	
+		<button type="submit" value="Submit">Submit</button>
+	</form>
+</body>
+</html>
